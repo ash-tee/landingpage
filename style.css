@@ -1,9 +1,15 @@
-#{
+
+
+/* GENERAL */
+
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Hartwell Alt', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* BODY - background */
 
 body{
     display: flex;
@@ -15,21 +21,26 @@ body{
     background-position: center;
 }
 
+
+/* HEADER - general settings- bar */
+
 header{
     background-color: rgba(172, 169, 169, 0.8);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px ;
+    padding: 18px 75px;
     background color:(255,255,255,0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur();
     display: flex;
     justify-content: space-between;
     align-items: left;
     z-index: 99;
 }
 
+
+/* NAVBAR - menus (logotext and menus) */
 .nav-menu-links{
     display: flex;
     align-items: center;
@@ -37,6 +48,7 @@ header{
     list-style:none
 }
 
+/* NAVBAR - LOGO TEXT border, padding,color */
 .logo-text{
     color:rgb(243, 241, 238);
     font-size: 1.5rem;
@@ -47,6 +59,7 @@ header{
     padding: 8px 10px;
 }
 
+/* NAVBAR - MENUS  */
 .nav-link{
     color:rgb(243, 241, 238);
     font-size: 1.3rem;
@@ -56,11 +69,92 @@ header{
 
 }
 
+/* navbar - LOGOTEXT - SIDE/MARGIN ALIGNMENT */
+
 .logo{
     margin-right: 750px;
     margin-left: none;
     
 }
 
+/* NAVBAR - mENUS OTHER Padding, border */
+.od{
+     padding: 2px 8px;
+    transition: color 0.4s ease, background-color 0.4s
 
+}
+
+
+/* NAVBAR - Login MENU Padding, border */
+.btn-header-login{
+    display: inline-block;
+    border: 3px solid rgb(66, 62, 62);
+    padding: 2px 8px;
+    border-radius: 5px;
+    transition: color 0.4s ease, background-color 0.4s ease,
+                border-color 0.4s ease;
+}
+
+
+
+
+/* hover - NAVBAR - LOGO TEXT */
+.logo-text:hover{
+   
+    color:rgb(66, 62, 62);
+    background-color: #efe9e9;      
+
+}
+
+
+/* hover - NAVBAR - MENUS Other */
+.od:hover{
+   
+    color: rgb(66, 62, 62);
+    background-color: #efe9e9;      
+
+}
+
+/* hover - NAVBAR - LOGIN MENU */
+.btn-header-login:hover{
+  
+    color: rgb(66, 62, 62);
+    background-color: #efe9e9;      
+
+}
+
+
+/* FOOTER - FLEX, PADDING, ALIGNMENT */
+
+.site-footer{
+    background-color: rgba(172, 169, 169, 0.8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 40px;
+    background color:(255,255,255,0.2);
+    backdrop-filter: blur();
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    justify-content: center;
+}
+
+/* FOOTER - CONTENT SIZE*/
+.footer-content{
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 0;
+}
+
+/* FOOTER - ICON SIZE, padding , alignment*/
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style:none;
+    justify-content: center;
+    margin: 12px 0 0;
+}
 
