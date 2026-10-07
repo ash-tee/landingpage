@@ -64,7 +64,7 @@ header{
     color:rgb(243, 241, 238);
     font-size: 1.3rem;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
 
 }
@@ -72,8 +72,8 @@ header{
 /* navbar - LOGOTEXT - SIDE/MARGIN ALIGNMENT */
 
 .logo{
-    margin-right: 750px;
-    margin-left: none;
+    margin-right: 650px;
+   
     
 }
 
@@ -111,7 +111,8 @@ header{
 .od:hover{
    
     color: rgb(66, 62, 62);
-    background-color: #efe9e9;      
+    background-color: #efe9e9; 
+    cursor: pointer;     
 
 }
 
@@ -120,6 +121,7 @@ header{
   
     color: rgb(66, 62, 62);
     background-color: #efe9e9;      
+    cursor: pointer;     
 
 }
 
