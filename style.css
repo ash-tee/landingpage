@@ -57,34 +57,7 @@ header{
     gap: 30px;
     list-style:none;
     justify-content:flex-end; 
- } /* groups the items toward the right.*/
-
-
-
-
-
-
-/*Each element gets the full available width. This gives the <ul class="nav-menu-links"> enough room to 
-place items at opposite end */
-
-
-
-/* */
-
-/* */
-
-/*
-
-
-/* navbar - LOGOTEXT - SIDE/MARGIN ALIGNMENT */
-
-/*.logo{
-    margin-right: auto;
-    margin-left: 10px;
-   
-    
-} */
-
+ }  
 
 /* NAVBAR - LOGO TEXT border, padding,color */
 .logo-text{
@@ -320,11 +293,7 @@ place items at opposite end */
     position: relative;
 }
 
-/* width: 100% makes the input fill the wrapper’s width.
-padding: 12px 40px 12px 12px adds space inside the input: 12px top, 40px right, 12px bottom, and 12px left. The extra right padding leaves room for the icon so typed text won’t overlap it.
-box-sizing: border-box makes the padding and border count within the 100% width, rather than making the input wider than its wrapper.
 
- */
 .input-box-login input,
 .input-box-register input {
     width: 100%;
@@ -333,14 +302,7 @@ box-sizing: border-box makes the padding and border count within the 100% width,
 }
 
 
-/* 
-position: absolute takes the icon out of the normal layout and lets it sit over the input.
-right: 12px places it 12px from the wrapper’s right edge.
-top: 50% moves its top to the vertical center of the wrapper.
-transform: translateY(-50%) shifts it upward by half its own height, centering it vertically.
-pointer-events: none lets clicks on the icon pass through to the input beneath it.
 
- */
 .input-box-login .icon,
 .input-box-register .icon {
     position: absolute;
